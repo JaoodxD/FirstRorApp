@@ -1,6 +1,7 @@
 
 Rails.application.routes.draw do
 
+  resources :widgets
   get 'persons/profile'
   devise_for :users
   # get 'persons/profile', as: 'user_root'
