@@ -46,8 +46,8 @@ test:
   encoding: unicode
   database: demo_test_test
   pool: 5
-  username: dave
-  password:
+  username: postgres
+  password: fixedsingle
   timeout: 5000
 
 
